@@ -1,0 +1,38 @@
+.landingBtn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50vw;
+}
+.landing{
+    background-image: url('../images/Background.jpg');
+    width:100%;
+    height:768px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2rem;
+}
+.name h1{
+    font-family: 'Montserrat';
+    margin-left: 50vw;
+    width:500px;
+    padding-top: 30vh;
+}
+.landingBtn button{
+    width: 30vw;
+    height: 6vh;
+    margin-top: 2vh;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(29, 135, 228);
+    color: white;
+    cursor: pointer;
+}
+.cb{
+text-decoration: none;
+color: white;
+}
+.sb{
+    text-decoration: none;
+    color: white;
+}
